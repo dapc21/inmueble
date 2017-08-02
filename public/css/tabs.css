@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+
+/*corección de pestañas*/
+	.nav-tabs > li {
+        float:none;
+    }
+
+}

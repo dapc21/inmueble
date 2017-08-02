@@ -1,0 +1,88 @@
+/*para centrar contenidos*/
+.bootstrap-dialog-body{
+   margin:auto 0;
+}
+/*para margenes más ajustados*/
+.bootstrap-dialog-body .row{
+   margin-right:6px;
+   margin-left:6px;
+   /*margin-bottom:-26px;*/
+   padding-bottom:0px;
+}
+/*para insertar formularios*/
+.bootstrap-dialog-form .modal-dialog{
+   margin:auto;
+   padding-top:30px;
+   width:80%;
+}
+/*para insertar vista detallada con ancho mínimo*/
+.bootstrap-dialog-view-min .modal-dialog{
+   margin:auto;
+   padding-top:30px;
+   width:50%;
+}
+/*para insertar vista detallada estándar*/
+.bootstrap-dialog-view .modal-dialog{
+   margin:auto;
+   padding-top:30px;
+   width:70%;
+}
+/*para insertar vista detallada con ancho máximo*/
+.bootstrap-dialog-view-max .modal-dialog{
+   margin:auto;
+   padding-top:30px;
+   width:90%;
+}
+/*para quitar bordes redondeados*/
+.bootstrap-dialog .modal-header{
+   border-top-left-radius:0px;
+   border-top-right-radius:0px;
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    /*para insertar vista detallada con ancho mínimo*/
+   .bootstrap-dialog-view-min .modal-dialog{
+      margin:auto;
+      padding-top:30px;
+      width:66%;
+   }
+   /*para insertar vista detallada estándar*/
+   .bootstrap-dialog-view .modal-dialog{
+      margin:auto;
+      padding-top:30px;
+      width:80%;
+   }
+   /*para insertar vista detallada con ancho máximo*/
+   .bootstrap-dialog-view-max .modal-dialog{
+      margin:auto;
+      padding-top:30px;
+      width:94%;
+   }
+}
+
+@media (max-width: 768px) {
+   /*para insertar formularios*/
+   .bootstrap-dialog-form .modal-dialog{
+      margin:auto;
+      padding-top:30px;
+      width:90%;
+   }
+    /*para insertar vista detallada con ancho mínimo*/
+   .bootstrap-dialog-view-min .modal-dialog{
+      margin:auto;
+      padding-top:30px;
+      width:82%;
+   }
+   /*para insertar vista detallada estándar*/
+   .bootstrap-dialog-view .modal-dialog{
+      margin:auto;
+      padding-top:30px;
+      width:90%;
+   }
+   /*para insertar vista detallada con ancho máximo*/
+   .bootstrap-dialog-view-max .modal-dialog{
+      margin:auto;
+      padding-top:30px;
+      width:98%;
+   }
+}

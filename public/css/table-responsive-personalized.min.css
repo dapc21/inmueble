@@ -1,0 +1,6 @@
+/*para tablas responsive*/
+.table-responsive-personalized{
+   padding-left:30px;
+   padding-right:30px;
+   overflow-x:auto;
+}
